@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+* {
+    margin:0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.466), rgb(0, 0, 255));
+}
+
+header h1 {
+    font-family: 'Passion One', cursiva;
+    font-variant: small-caps;
+    padding-top:50px ;
+    font-size: 10vw;
+}
+
+header p {
+    padding-bottom: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+header > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+header > p > a:hover {
+    
+    text-decoration: underline;
+}
+
+
+div  {
+    font-family: 'Dancing Script',cursiva;
+    font-weight: 500;
+    font-size: 5vw;
+    padding-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+div.imagem {
+    max-width: 100%;
+    background: url(../imagens/flores.jpg) no-repeat fixed center;
+    background-size: cover;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.678);
+}
+
+div.imagem > p, div.imagem2 > p {
+    background-color: rgba(0, 0, 0, 0.356);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px, 1px, 0px black;
+    color: white;
+}
+
+div.imagem2 {
+    max-width: 100%;
+    background: url(../imagens/carta.jpg) no-repeat fixed left center;
+    background-size: cover;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.678);
+}
+
+footer {
+    background-image: linear-gradient(to bottom,rgba(0, 0, 255, 0.466),  rgb(0, 0, 255) );
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
+
+
+
