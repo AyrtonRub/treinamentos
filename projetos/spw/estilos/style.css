@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    background-color: #0b0b16;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    position: absolute;
+    background-color: white;
+    width: 320px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px black;
+    margin-top: 10px;
+}
+
+main > section > div.img {
+    padding-top: 25px;
+    text-align: center;
+}
+
+main > section > div.img1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main > section > p.ste {
+    background-color: #D9EDF6;
+    color: #2e5872;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px solid #c7d8e0;
+}
+
+main > section > p {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.74);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main > section > form > div.campo > input {
+    padding: 8px;
+    margin: auto;
+    display: block;
+    width: 260px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+main > section > form > div > input[type=submit] {
+    background-color: #597DDB;
+    color: white;
+    padding: 8px;
+    margin: auto;
+    display: block;
+    width: 280px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    
+}
